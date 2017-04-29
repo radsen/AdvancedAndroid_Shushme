@@ -9,9 +9,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+<<<<<<< HEAD
+        <!-- TODO (1) Add meta-data tag with API key -->
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="@string/places_api_key"/>
+=======
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDMj0jqDC8Bi94tN9pjoy8T2qPg5xeLm6s" />
+            android:value="insert-your-api-key-here" />
+>>>>>>> 6d9b52654f6bd8f71c31a6ca1e5da643158ed415
 
         <activity android:name="com.example.android.shushme.MainActivity">
             <intent-filter>
@@ -27,6 +33,13 @@
 
     </application>
 
+<<<<<<< HEAD
+    <!-- TODO (2) Add uses-permission tags for INTERNET and ACCESS_FINE_LOCATION -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+=======
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+>>>>>>> 6d9b52654f6bd8f71c31a6ca1e5da643158ed415
 </manifest>
